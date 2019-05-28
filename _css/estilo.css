@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+#cabecalho{
+  display: block;
+  height: 55px;
+}
+
+#nav_menu{
+  display: block;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.5);
+  border: 2px solid black;
+}
+
+footer{
+  border-top: 1px solid black;
+  position: absolute;
+  bottom: 0;
+}

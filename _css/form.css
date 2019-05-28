@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+div{
+  padding: 10px;
+}
+
+/*div.form {
+  margin: 0 auto;
+  width: 100px;
+}*/
+
+form input{
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+form button{
+  margin-left: 0 auto;
+}
