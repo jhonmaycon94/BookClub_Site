@@ -20,7 +20,7 @@ p{
   height: 10%;
   /*nd-color: aqua;*/
   position: relative;
-  border-bottom: 1px solid #F7A072;
+  border-bottom: 1px solid #0FA3B1;
   background-color: rgba(0, 0, 0, 0.05);
 }
 
@@ -38,7 +38,7 @@ p{
  /*background-color: darkgoldenrod;*/
  height: 80%;
  position: relative;
- box-shadow: 10px 10px 10px #F7A072;
+ /*box-shadow: 2px 2px 5px #0FA3B1;*/
 }
 
 #corpo p{
@@ -54,9 +54,49 @@ p{
   float: left;
   width: 400px;
   border-radius: 5em;
-  box-shadow: 5px 5px 5px #F7A072;
+  box-shadow: 1px 1px 5px black;
   margin-left: 4%;
   margin-top: 1%;
+}
+.classname {
+	background-color:#0fa4b1;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:100px;
+	text-decoration:none;
+  text-align:center;
+  position: absolute;
+  bottom: 60px;
+  right: 430px;
+  box-shadow: 2px 2px 5px black;
+}.classname:hover {
+  background-color:#1e62d0;
+}
+
+#bt_entre_clube{
+  position: absolute;
+  bottom: 60px;
+  right: 300px;
+  width:100px;
 }
 
 div#form{
@@ -67,7 +107,7 @@ div#form{
 }
 
 footer#rodape{
-  border-top: 1px solid #F7A072;
+  border-top: 1px solid #0FA3B1;
   width: 100%;
   position: absolute;
   height: 10%;
