@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="_css/form.css"/>
     <link rel="stylesheet" href="_css/estilo.css"/>
     <link href="https://fonts.googleapis.com/css?family=East+Sea+Dokdo|Pacifico&display=swap" rel="stylesheet"/>
+    <script src="_js/validaLogin.js"></script>
   </head>
   <body>
     <!--cabeçalho-->
@@ -28,7 +29,7 @@
                   <input type="password" name="senha" id="senha" size="20" maxlength="8">
                 </div>
                 <div class="bt_login_field">
-                  <button type="submit" name="bt_login" id="bt_login">Login</button>
+                  <button type="submit" name="bt_login" id="bt_login" onclick="return validaLogin()">Login</button>
                 </div>
             </form>
           </div>

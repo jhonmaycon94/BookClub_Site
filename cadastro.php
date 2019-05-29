@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="_css/form.css"/>
     <link rel="stylesheet" href="_css/estilo.css"/>
     <link href="https://fonts.googleapis.com/css?family=East+Sea+Dokdo|Pacifico&display=swap" rel="stylesheet"/>
+    <script src="_js/validaCadastro.js"></script>
   </head>
   <body>
     <!--cabeçalho-->
@@ -33,7 +34,7 @@
         <input type="password" name="senha" id="senha" maxlength="8" size="10"><br/>
         <label for="confirma_senha">Confirmar Senha:</label><br/>
         <input type="password" name="confirma_senha" id="confirma_senha" maxlength="8" size="10"><br/>
-
+        <button type="button" id="bt_cadastro" onclick="return validaCadastro()">Enviar</button>
       </form>
     </div>
       <!--rodapé-->
