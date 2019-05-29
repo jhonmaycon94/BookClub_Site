@@ -1,19 +1,41 @@
 @charset "UTF-8";
 
-#cabecalho{
-  display: block;
-  height: 55px;
+*{box-sizing: border-box; font-size: 100%; padding: 0px; margin: 0px;}
+
+html, body{
+  height: 100%;
 }
 
-#nav_menu{
+body{
+  position: relative;
+}
+
+#cabecalho{
   display: block;
-  height: 50px;
-  background-color: rgba(255, 0, 0, 0.5);
-  border: 2px solid black;
+  height: 10%;
+  background-color: aqua;
+  text-align: center;
+}
+
+#corpo{
+ background-color: darkgoldenrod;
+ height: 80%;
+ position: relative;
+}
+
+div#form{
+  background-color: darkviolet;
+  position: fixed;
+  left: 40%;
+  top: 30%;
 }
 
 footer{
   border-top: 1px solid black;
+  width: 100%;
   position: absolute;
+  height: 10%;
   bottom: 0;
+  background-color: brown;
+  text-align: center;
 }
