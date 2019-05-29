@@ -4,10 +4,20 @@ div{
   padding: 10px;
 }
 
+label {
+  font-family: 'Pacifico', cursive;
+}
+
 /*div.form {
   margin: 0 auto;
   width: 100px;
 }*/
+
+.formulario{
+  position: absolute;
+  top: 100px;
+  left: 600px;
+}
 
 form input{
   margin-top: 4px;
