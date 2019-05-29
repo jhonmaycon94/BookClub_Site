@@ -4,38 +4,82 @@
 
 html, body{
   height: 100%;
+  background-color: #F9F7F3;
 }
 
 body{
   position: relative;
 }
 
+p{
+  font-family: 'Pacifico', cursive;
+}
+
 #cabecalho{
   display: block;
   height: 10%;
-  background-color: aqua;
-  text-align: center;
+  /*nd-color: aqua;*/
+  position: relative;
+  border-bottom: 1px solid #F7A072;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+#cabecalho h1{
+  /*background-color: lemonchiffon;*/
+  width: fit-content;
+  position: absolute;
+  left: 45%;
+  color: #606060;
+  font-family: 'Pacifico', cursive;
+  font-size: 2em;
 }
 
 #corpo{
- background-color: darkgoldenrod;
+ /*background-color: darkgoldenrod;*/
  height: 80%;
  position: relative;
+ box-shadow: 10px 10px 10px #F7A072;
+}
+
+#corpo p{
+  font-size: 3em;
+  text-align: center;
+  float: right;
+  margin-top: 5%;
+  color: #0FA3B1;
+  text-shadow: 1px 1px 2px black;
+}
+
+#corpo img{
+  float: left;
+  width: 400px;
+  border-radius: 5em;
+  box-shadow: 5px 5px 5px #F7A072;
+  margin-left: 4%;
+  margin-top: 1%;
 }
 
 div#form{
-  background-color: darkviolet;
+  /*background-color: darkviolet;*/
   position: fixed;
   left: 40%;
   top: 30%;
 }
 
-footer{
-  border-top: 1px solid black;
+footer#rodape{
+  border-top: 1px solid #F7A072;
   width: 100%;
   position: absolute;
   height: 10%;
   bottom: 0;
-  background-color: brown;
+ /* background-color: brown;*/
   text-align: center;
+  font-family: 'East Sea Dokdo', cursive;
+  font-weight: 900;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+footer#rodape p{
+  padding-top: 10px;
+  color: #B5E2FA;
 }
