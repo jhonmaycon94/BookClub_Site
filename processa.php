@@ -8,5 +8,6 @@ $username = filter_input(INPUT_POST, 'usuario');
 $sexo = filter_input(INPUT_POST, 'sexo');
 
 $conn->query("INSERT INTO usuarios(username, senha, nome, idade, sexo) VALUES('$username', '$senha', '$nome', '$idade', '$sexo')");
+$conn->close();
 
 ?>

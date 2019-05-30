@@ -20,7 +20,7 @@
     <div id="corpo">
       <!--formulario-->
         <div id="form">
-          <form action="processa.php" method="post">
+          <form action="processaLogin.php" method="post">
               <div class="username_field">
                 <label for="username">Usuário:</label><br/>
                 <input type="text" name="username" id="username" value="" size="20">
@@ -38,5 +38,24 @@
     <footer id="rodape">
       <p>&copy Jhon Maycon 2019</p>
     </footer>
+    <?php
+
+    require('conexao.php');
+
+    $cliente_usuario = filter_input(INPUT_POST, 'username');
+    $cliente_senha = filter_input(INPUT_POST, 'senha');
+
+    if ($result = $conn->query("SELECT * FROM usuarios WHERE username = '$cliente_usuario' AND senha = '$cliente_senha'")) {
+          if($result->num_rows>0){
+            echo "cliente logado";
+          }else{
+          echo "cliente não logado";
+        }
+      }
+
+        /* free result set */
+        $result->close();
+        $conn->close();
+    ?>
 </body>
 </html>

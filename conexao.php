@@ -25,5 +25,4 @@ if (mysqli_connect_error()) {
             . mysqli_connect_error());
 }
 
-echo "conexão com sucesso"
 ?>
