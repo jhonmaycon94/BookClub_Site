@@ -1,8 +1,9 @@
+<?php include('core/init.php');?>
 <?php include('includes/overall/overallHeader.php');?>
-
+<?php include('processaLogin.php');?>
 <!--formulario-->
 <div id="form">
-<form action="processaLogin.php" method="post">
+<form action="" method="post">
   <div class="username_field">
     <label for="username">Usuário:</label><br/>
     <input type="text" name="username" id="username" value="" size="20">
