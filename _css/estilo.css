@@ -17,7 +17,7 @@ p{
 
 #cabecalho{
   display: block;
-  height: 10%;
+  height: 8%;
   /*nd-color: aqua;*/
   position: relative;
   border-bottom: 1px solid #0FA3B1;
@@ -32,6 +32,40 @@ p{
   color: #606060;
   font-family: 'Pacifico', cursive;
   font-size: 2em;
+}
+
+nav#nav_menu{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  padding:0px;
+  margin:0px;
+  background-color:#EDEDED;
+  list-style:none;
+}
+
+ul#menu{
+}
+
+ul#menu li {
+  display: inline;
+  margin-left: 2px;
+}
+
+#menu li a {
+    padding: 2px 10px;
+    display: inline-block;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    /* visual do link */
+    background-color:rgba(0, 0, 0, 0.05);
+    color: #333;
+    font-family: 'Pacifico', cursive;
+    text-decoration: none;
+}
+
+#menu li a:hover{
+  background-color: #aaaaaa;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
 
 #corpo{
@@ -110,7 +144,7 @@ footer#rodape{
   border-top: 1px solid #0FA3B1;
   width: 100%;
   position: absolute;
-  height: 10%;
+  height: 8%;
   bottom: 0;
  /* background-color: brown;*/
   text-align: center;
